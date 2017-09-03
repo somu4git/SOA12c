@@ -75,7 +75,7 @@
       <string v="oracle.sb.tooling.ide.core.projects.SbProjectSettings/sbContentSet"/>
       <string v="oracle.jdeveloper.model.PathsConfiguration/cepContentSet"/>
    </list>
-   <value n="defaultPackage" v="helloworld"/>
+   <value n="defaultPackage" v="helloworld1"/>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
          <string v="SOA"/>
@@ -115,7 +115,7 @@
    </hash>
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
       <hash n="profileDefinitions">
-         <hash n="HelloWorld">
+         <hash n="HelloWorld1">
             <hash n="archiveOptions">
                <value n="hasManifest" v="false"/>
             </hash>
@@ -202,113 +202,18 @@
                   </hash>
                </list>
             </hash>
-            <url n="jarURL" path="deploy/sca_HelloWorld.jar"/>
+            <url n="jarURL" path="deploy/sca_HelloWorld1.jar"/>
             <value n="profileClass" v="oracle.tip.tools.ide.fabric.deploy.sar.SarProfile"/>
-            <value n="profileName" v="HelloWorld"/>
-         </hash>
-         <hash n="SOA-SAR">
-            <hash n="archiveOptions">
-               <value n="hasManifest" v="false"/>
-            </hash>
-            <hash n="fileGroups">
-               <list n="groups">
-                  <hash>
-                     <list n="contributors">
-                        <hash>
-                           <url n="location" path="SOA/"/>
-                           <value n="type" v="1"/>
-                        </hash>
-                        <hash>
-                           <url n="location" path="../src/"/>
-                           <value n="type" v="1"/>
-                        </hash>
-                     </list>
-                     <value n="displayName" v="SOA Files"/>
-                     <hash n="filters">
-                        <list n="rules">
-                           <hash>
-                              <value n="pattern" v="**/XSLNonDeployedFiles"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="SCA-INF/bpel"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v=".migrated/jaxb_classes"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**/.rulesdesigner/jaxb_classes"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="merged"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**/mdssys"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**/.designer"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="SCA-INF/file-layer-registry.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="SCA-INF/classes/scac.log"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="SCA-INF/classes/scac_out.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="*.jpr"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="deploy/"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="META-INF/*.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="SCA-INF/patch.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**"/>
-                              <value n="type" v="0"/>
-                           </hash>
-                        </list>
-                     </hash>
-                     <value n="internalName" v="sar-files"/>
-                     <value n="type" v="1"/>
-                  </hash>
-               </list>
-            </hash>
-            <url n="jarURL" path="deploy/sca_HelloWorld.jar"/>
-            <value n="profileClass" v="oracle.tip.tools.ide.fabric.deploy.sar.SarProfile"/>
-            <value n="profileName" v="SOA-SAR"/>
-            <hash n="sca-options">
-               <value n="revision-id" v="1.0"/>
-            </hash>
+            <value n="profileName" v="HelloWorld1"/>
          </hash>
       </hash>
       <list n="profileList">
-         <string v="SOA-SAR"/>
-         <string v="HelloWorld"/>
+         <string v="HelloWorld1"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="SOATest-HelloWorld-webapp"/>
-      <value n="j2eeWebContextRoot" v="SOATest-HelloWorld-context-root"/>
+      <value n="j2eeWebAppName" v="SOATest-HelloWorld1-webapp"/>
+      <value n="j2eeWebContextRoot" v="SOATest-HelloWorld1-context-root"/>
    </hash>
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
